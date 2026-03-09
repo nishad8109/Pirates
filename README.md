@@ -27,7 +27,7 @@ The core philosophy of VaultDrop is that the server is treated as completely unt
    - When a user registers, their browser generates an **RSA-OAEP 4096-bit** key pair using the Web Crypto API.
    - The Public Key is sent to the backend database.
    - The Private Key is **never** transmitted. It is marked as `extractable: false` (where supported) and stored locally in the browser's IndexedDB.
-
+/
 2. **No Passwords on Server:**
    - Registration handles only the username and public key. Authentication relies on possession of the private key in the local browser.
 
