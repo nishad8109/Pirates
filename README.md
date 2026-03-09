@@ -32,7 +32,7 @@ The core philosophy of VaultDrop is that the server is treated as completely unt
    - Registration handles only the username and public key. Authentication relies on possession of the private key in the local browser.
 
 ## 💬 Hybrid Encryption Workflows
-
+x
 VaultDrop uses **Hybrid Encryption** for both messages and files, combining the speed of AES with the asymmetric key distribution of RSA.
 
 ### 1. Sending an Encrypted Message
