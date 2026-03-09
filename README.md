@@ -36,7 +36,7 @@ The core philosophy of VaultDrop is that the server is treated as completely unt
 VaultDrop uses **Hybrid Encryption** for both messages and files, combining the speed of AES with the asymmetric key distribution of RSA.
 
 ### 1. Sending an Encrypted Message
-- **Alice** wants to send a message to **Bob**.
+- **Alice** wants to send a message to **Bob**
 1. Alice's browser fetches Bob's RSA Public Key from the server.
 2. Alice's browser generates a random, single-use **AES-256-GCM** session key.
 3. The message text is encrypted with the AES key.
